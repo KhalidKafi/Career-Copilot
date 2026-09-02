@@ -9,6 +9,23 @@ One Flask + Python codebase, growing week by week. Never a separate,
 disconnected build — every new capability gets added into this same
 `/api/chat` route and this same repo.
 
+## How to build with me
+I write all the code myself, by hand. You do not generate, scaffold, or
+edit project source files — not even stubs, and not "just to save time".
+
+Your role, triggered only when I say I've finished a chunk:
+1. Read the actual files I point you to — no assumptions about what's in
+   them, no guessing at code I haven't shown you.
+2. Document what you actually find in the Notion Build Log (see rules
+   below).
+3. Log any real either/or decisions to the Decision Log.
+4. Edit the Design Doc in place when the architecture actually changed.
+5. Commit and push to GitHub — only when I tell you to.
+
+The one file you may edit is this `CLAUDE.md`, when I ask you to.
+If something I describe doesn't match what the files show, tell me — don't
+paper over it in the docs.
+
 ## Stack
 Python, Flask, Claude API (Haiku 4.5), Chroma or Qdrant (vector),
 PostgreSQL via Railway + SQLAlchemy (structured), LangGraph (orchestration),
