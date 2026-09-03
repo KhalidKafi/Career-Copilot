@@ -5,7 +5,7 @@ letters and checks job-fit (tools, with self-improvement), pulls live data
 from GitHub and the web (MCP + web search fallback), remembers my job
 search history (memory), and — once multi-user — has login and safety gates.
 
-One Flask + Python codebase, growing week by week. Never a separate,
+One FastAPI + Python codebase, growing week by week. Never a separate,
 disconnected build — every new capability gets added into this same
 `/api/chat` route and this same repo.
 
@@ -27,7 +27,7 @@ If something I describe doesn't match what the files show, tell me — don't
 paper over it in the docs.
 
 ## Stack
-Python, Flask, Claude API (Haiku 4.5), Chroma or Qdrant (vector),
+Python, FastAPI, Claude API (Haiku 4.5), Chroma or Qdrant (vector),
 PostgreSQL via Railway + SQLAlchemy (structured), LangGraph (orchestration),
 Redis (later), Docker + Railway (deploy), Supabase Auth (later, multi-user only).
 
